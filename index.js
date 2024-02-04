@@ -46,7 +46,6 @@
 
 // import("inquirer")
 // .then((inquirer) => {
-//   // 여기에 inquirer 모듈을 사용하는 코드를 작성
 //   return inquirer.prompt([{ type: "input", name: "raqam", message: "raqamni kiriting?" }]);
 // })
 // .then((answer) => {
@@ -104,9 +103,9 @@
                         // module: hozirgi module haqida malumot.
                         // __filename: hozirgi failni manzili.
                         // __dirname: hozirgi direktni manzili.
-                        });
+                        // });
 
-                        */
+                       
  
 
  const Account = require("./account");
@@ -122,4 +121,6 @@
  // Mercades-Benz Amg GTR
  myAccount.withdrawMoney(150000);
  myAccount.makeDeposit(198793);
+ 
+ */
 

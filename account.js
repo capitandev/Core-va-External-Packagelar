@@ -6,7 +6,7 @@ class Account {
     #account_id
     constructor(name, amount, account_id) {
         this.name = name;
-        this.#amount = amount; // 오타 수정: this.#ammount -> this.#amount
+        this.#amount = amount; 
         this.#account_id = account_id;
     }
     
